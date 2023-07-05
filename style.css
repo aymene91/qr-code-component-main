@@ -9,16 +9,17 @@
     
  }
 body{
-    width: 1440px;
+    display:grid;
+    justify-content: space-around;
     background-color: hsl(212, 45%, 89%);
     font-family: 'Agdasima', sans-serif;
-font-family: 'Big Shoulders Display', cursive;
-font-family: 'Cairo', sans-serif;
-font-family: 'Lexend Deca', sans-serif;
-font-family: 'Outfit', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Ysabeau Infant', sans-serif;
-font-family: 'Ysabeau Office', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-family: 'Ysabeau Office', sans-serif;
 }
 img{
     width: 300px;
@@ -32,5 +33,5 @@ img{
     font-weight: 700 ;
     font-size: 20px;
     position: relative;
-    left: calc(330/2)%;
+    left: calc(330/2);
 }
